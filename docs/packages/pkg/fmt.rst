@@ -28,7 +28,7 @@ fmt
     find_package(fmt CONFIG REQUIRED)
 
     # or fmt-header-only
-    target_link_libraries(... fmt)
+    target_link_libraries(... fmt::fmt)
 
 Bugs
 ----
